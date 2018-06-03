@@ -21,6 +21,6 @@ function currentLine(lineList) {
     for (var i = 0; i<lineList.length; i++) {
       list.push(`${i+1}. ${lineList[i]}`)
     }
-    return "The line is currently: " + 
+    return "The line is currently: " + list.join(', ')
   }
 }
